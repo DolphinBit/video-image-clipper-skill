@@ -29,9 +29,11 @@ This creates an output directory named `clips/` and writes files like `clip_001.
 
 ## Options
 
+- `--method`: matching method, either `orb` or `clip` (default: `clip`)
+- `--device`: device for CLIP inference, `cpu` or `cuda` (default: auto)
 - `--sample-rate`: sample every Nth frame to speed up detection (default: `1`)
 - `--min-duration`: minimum duration of each output clip in seconds (default: `0.5`)
-- `--match-threshold`: ORB match score threshold, from `0.0` to `1.0` (default: `0.08`)
+- `--match-threshold`: similarity threshold (method-specific, default: `0.30` for CLIP, `0.08` for ORB)
 
 ## Advanced example
 
