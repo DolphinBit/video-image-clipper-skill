@@ -1,0 +1,11 @@
+{
+  "name": "video-image-clipper-skill",
+  "version": "0.1.0",
+  "description": "Detect a target image inside a video and clip matching segments",
+  "bin": {
+    "clip-by-image": "clip_by_image.py"
+  },
+  "keywords": ["video", "clip", "image", "vision", "skills"],
+  "author": "",
+  "license": "MIT"
+}
