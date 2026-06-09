@@ -1,11 +1,11 @@
 {
   "name": "video-image-clipper-skill",
-  "version": "0.1.0",
-  "description": "Detect a target image inside a video and clip matching segments",
+  "version": "1.0.0",
+  "description": "多功能视频剪辑工具，支持 CLIP/ORB 图像匹配与 InsightFace 人脸检测",
   "bin": {
     "clip-by-image": "clip_by_image.py"
   },
-  "keywords": ["video", "clip", "image", "vision", "skills"],
-  "author": "",
+  "keywords": ["video", "clip", "image", "vision", "face-detection", "skills"],
+  "author": "Dolphin2025127",
   "license": "MIT"
 }
